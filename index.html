@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            margin: 30px;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .image {
+            margin-top: 50px;
+            display: grid;
+            place-items: center;
+        }
+
+        .search {
+            margin: 30px;
+            display: grid;
+            place-items: center;
+            background-color: rgb(238, 238, 238);
+        }
+
+        .search p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .search input {
+            width: 500px;
+            height: 20px;
+        }
+
+        .menu {
+            margin: 10px 30px;
+            display: grid;
+            column-gap: 10px;
+            grid-template-columns: auto auto auto;
+            place-items: center;
+        }
+
+        .searchArea {
+            width: 100%;
+            height: 100%;
+            background-color: #1CD6CE;
+            text-align: center;
+        }
+
+        .searchArea ul div {
+            margin-top: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .searchArea ul li {
+            list-style: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+ 
+        .informationArea {
+            width: 100%;
+            height: 100%;
+            background-color: #6FEDD6;
+
+        }
+
+
+        .informationArea ul li {
+            list-style: none;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .informationArea ul li:first-child {
+            margin-top: 50px;
+        }
+        .inputArea {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            background-color: #66BFBF;
+        }
+
+        .inputArea p:first-child {
+            margin-top: 50px;
+        }
+
+        .inputArea button {
+            margin-top: 20px;
+        }
+        .footer{
+            display: grid;
+            place-items: center;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="./image/google.jpg" alt="">
+        </div>
+        <div class="search">
+            <p>Search the web using Google!</p>
+            <input type="text">
+            <div class="buttons">
+                <button class="first">Google search</button>
+                <button class="second">I'm feeling lucky</button>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="searchArea">
+                <ul>
+                    <div>Special Search</div>
+                    <li><a href="stanford.html">Stanford Search</a></li>
+                    <li><a href="linuxSearch.html">Linux Search</a></li>
+                </ul>
+            </div>
+            <div class="informationArea">
+                <ul>
+                    <li><a href="help.html">Help!</a></li>
+                    <li><a href="https://tr.wikipedia.org/wiki/Google">About Google!</a></li>
+                    <li><a href="company.html">Company Info</a></li>
+                    <li><a href="googleLogos.html">Google! Logos</a></li>
+                </ul>
+            </div>
+            <div class="inputArea">
+                <p>Get Google!</p>
+                <p>updates monthly:</p>
+                <input type="text" placeholder="your E-mail">
+                <div class="subscribe">
+                    <button>Subscribe</button>
+                    <a href="https://web.archive.org/">Archive</a>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer">
+            Copyright &copy; 1998 Google Inc.
+        </div>
+    </div>
+</body>
+
+</html>
